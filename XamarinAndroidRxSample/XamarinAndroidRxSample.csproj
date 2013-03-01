@@ -59,4 +59,18 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\rxm4a\RxM4A\RxMonoForAndroid\System.Reactive.Core\System.Reactive.Core.csproj">
+      <Project>{BDA857ED-EA30-4B6A-AC39-B66D94A0D1A2}</Project>
+      <Name>System.Reactive.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\rxm4a\RxM4A\RxMonoForAndroid\System.Reactive.Interfaces\System.Reactive.Interfaces.csproj">
+      <Project>{CC9F27EB-5AC3-471D-AD79-22C321B32AC0}</Project>
+      <Name>System.Reactive.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\rxm4a\RxM4A\RxMonoForAndroid\System.Reactive.Linq\System.Reactive.Linq.csproj">
+      <Project>{CB922044-29CB-4677-AB54-2769E4B0058E}</Project>
+      <Name>System.Reactive.Linq</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
